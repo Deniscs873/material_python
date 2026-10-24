@@ -1,18 +1,34 @@
-# **CURSO DE PYTHON**
+# Python — materiais e notebooks didáticos
 
-## Material para os cursos do SENAI:
+Repositório de materiais de estudo e apoio a aulas de programação em Python, bancos de dados e desenvolvimento de aplicações.
 
-- [Aperfeiçoamento em Python (80 horas)]
-- [Python Developer (200 horas)]
+> **Nota de autoria e uso:** os materiais estão associados a atividades de formação. A publicação neste repositório não significa que todos os exemplos, apostilas ou recursos de terceiros sejam de autoria exclusiva do mantenedor ou estejam licenciados para redistribuição. Confirme a origem e as permissões de cada material antes de copiar, adaptar ou reutilizar comercialmente.
 
-## Descrição:
+## Conteúdo
 
-- Na pasta ***assets*** se encontram as imagens utilizadas nas apostilas.
-- Na pasta **códigos-fonte** se encontram os códigos-fonte utilizados nas apostilas.
-- Na pasta ***notebooks*** se encontram as apostilas, todas no formato ***Jupyter Notebook***, com a extensão `.ipynb`.
-- Na pasta ***sql*** se encontram as consultas SQL utilizadas nos bancos de dados dos programas.
-- No arquivo `requirements.txt` se encontram os pacotes e suas respectivas versões utilizadas nos códigos-fonte disponíveis nesse repositório.
+| Pasta | Descrição |
+| --- | --- |
+| [notebooks](notebooks/) | Apostilas e exercícios em Jupyter Notebook; parte do conteúdo é acompanhada por arquivos de dados |
+| [codigos-fonte](codigos-fonte/) | Exemplos de programação |
+| [database](database/) | Arquivos locais de banco de dados para exercícios |
+| [assets](assets/) | Imagens e materiais auxiliares |
 
-> **Obs:** caso faça o clone deste repositório e  queira utilizar os pacotes reunidos em `requirements.txt`, execute o seguinte comando no terminal após o clone: `pip install -r requirements.txt`.
+## Execução
 
-### **Bons estudos!!! =D**# material_python
+```bash
+python -m venv .venv
+# Windows: .venv\\Scripts\\activate
+# Linux/macOS: source .venv/bin/activate
+python -m pip install -r requirements.txt
+jupyter notebook
+```
+
+**Atenção:** o arquivo `requirements.txt` reflete dependências de materiais variados; instalar tudo pode exigir ajustes de versão e ambiente. Prefira ambientes isolados e revise os requisitos de cada notebook.
+
+## Engenharia e manutenção
+
+- Material de apoio didático; não é biblioteca preparada para produção.
+- Notebooks podem depender de dados locais e versões específicas.
+- Revise licenças, créditos, dados pessoais e permissões de publicação antes de redistribuir conteúdos de terceiros.
+
+**Contato:** [Denis Correia](https://github.com/Deniscs873) · [LinkedIn](https://www.linkedin.com/in/denis-correia/)
